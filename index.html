@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de  invitados</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de invitados
+</h3>
+
+<div id="filas">
+<input type="text" placeholder="Ingresar nombre" id="nombre_1">
+<br>
+<button onclick="submit()" id="botón_enviar">
+	Enviar
+</button>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<hr>
+<div id="display_name"></div>
+<hr>
+<div id="show_1"><h3 id="hd1">Lista de invitados</h3>
+<button id="show" onclick="show()">Mostrar</button><p Id="p1"></p></div>
+
+<hr>
+<button onclick="sorting()" id="botón_ordenar">
+	Ordenar
+</button>
+<div id="sorted"></div>
+</div>
+<hr>
+<input type="text" id="s1" placeholder="buscar_nombre">
+&nbsp;
+<button id="buscar" onclick="searching()" placeholder="buscar_nombre">Buscar</button>
+<p id="p2"></p>
+
+</center>
+
+</body>
+</html>
